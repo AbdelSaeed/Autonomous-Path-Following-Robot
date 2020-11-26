@@ -1,0 +1,27 @@
+actions: []
+authors: Abdelghani Saeed <Abdelghani.Saeed@student.uts.edu.au>, Alen Alempijevic
+  <Alen.Alempijevic@uts.edu.au>
+brief: ''
+bugtracker: ''
+depends:
+- nav_msgs
+- a4_setup
+- message_runtime
+- catkin
+- roscpp
+- sensor_msgs
+- roslib
+- std_msgs
+- eigen_conversions
+- geometry_msgs
+- tf2_ros
+- rosbag
+- tf_conversions
+description: pfms A4 Assingment
+license: MIT
+maintainers: Abdelghani Saeed <12747150@student.uts.edu.au>
+msgs: []
+package_type: package
+repo_url: ''
+srvs: []
+url: ''

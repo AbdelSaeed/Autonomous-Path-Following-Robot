@@ -1,0 +1,50 @@
+
+/** \mainpage
+
+@htmlinclude manifest.html
+
+@b path_follower is a package prepared for the subject Programming for Mechatronics Systems (PfMS) to deliver the final inidividual project, i.e. Robot Trajectory Follower.
+
+
+@section usage Usage: To setup the trajectory following system, execute the following commands in a new terminal
+
+<b>launch stage simulator</b> \n
+$ roslaunch a4_setup a4_setup.launch\n\n
+
+<b>launch rviz</b>\n
+$ rviz -d $(rospack find a4_setup)/rviz/pfms.rviz\n\n
+
+<b>run sample node to launch 'face_goal' server</b>\n
+$ rosrun path_follower path_follower-sample\n\n
+
+<b>run path follower assistance node</b>\n
+$ rosrun pfms_path_following pfms_path_following-velocity_control\n\n
+
+<b>run main node to begin path following task</b>\n
+$ rosrun path_follower follow_traj_main_node _mode\n\n
+                or for advance mode, pass in a boolean via the _advance parameter\n\n
+$ rosrun path_follower follow_traj_main_node _mode _advance:=true\n\n
+
+@subsection Unit-testing
+<b>To run the unit testing:</b>\n
+
+$ cd ~/catkin_ws\n
+$ catkin_make tests\n
+$ rosrun path_follower path_follower-test-hd
+
+@subsection Doxygen
+<b>To begin, navigate to the workspace:</b>\n
+
+$ cd ~/catkin_ws\n\n
+
+<b>To generate the Documentation</b>\n
+$ rosdoc_lite src/path_follower\n\n
+
+<b>To view the Documentation</b>\n
+$ firefox ~/catkin_ws/doc/html/index.html
+
+
+
+
+*/
+

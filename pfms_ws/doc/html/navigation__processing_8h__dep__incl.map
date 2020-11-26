@@ -1,0 +1,7 @@
+<map id="navigation_processing.h" name="navigation_processing.h">
+<area shape="rect" id="node2" href="$follow__traj_8h.html" title="follow_traj headerfile " alt="" coords="86,80,178,107"/>
+<area shape="rect" id="node5" href="$navigation__processing_8cpp.html" title="navigation_processing.cpp" alt="" coords="203,80,379,107"/>
+<area shape="rect" id="node6" href="$utest__hd_8cpp.html" title="Unit testing NavigationProcessing::computeAssitModePoses(nav_msgs::Odometry) member function from Nav..." alt="" coords="403,80,501,107"/>
+<area shape="rect" id="node3" href="$follow__traj_8cpp.html" title="follow_traj implementation file " alt="" coords="5,155,112,181"/>
+<area shape="rect" id="node4" href="$follow__traj__main_8cpp.html" title="follow_traj_main.cpp" alt="" coords="136,155,277,181"/>
+</map>
